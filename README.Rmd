@@ -1,13 +1,23 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-Lookups
-=======
 
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+
+# Lookups
 This package provides lookups to convert between UK geographies.
 
-Copyright notices
-=================
 
+# Copyright notices
 Lookup products are supplied under the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 Contains National Statistics data © Crown copyright and database right 2016.

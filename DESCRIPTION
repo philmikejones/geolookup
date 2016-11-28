@@ -1,0 +1,16 @@
+Package: geolookup
+Title: Lookups for UK geographies
+Version: 0.0.0.9000
+Authors@R: person("Phil Mike", "Jones", email = "philmikejones@gmail.com", role = c("aut", "cre"))
+Description: Provides lookups to convert from one UK geography to another
+    provided by Office for National Statistics.
+Depends:
+    R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    readr,
+    magrittr,
+    dplyr
+RoxygenNote: 5.0.1
