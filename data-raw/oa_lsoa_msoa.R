@@ -11,7 +11,7 @@ source("R/packages.R")
 
 oa_lsoa_msoa_lad <-
   readr::read_csv("inst/extdata/OA11_LSOA11_MSOA11_LAD11_EW_LUv2.csv") %>%
-  rename(
+  dplyr::rename(
     oa_cd   = OA11CD,
     lsoa_cd = LSOA11CD,
     lsoa_nm = LSOA11NM,

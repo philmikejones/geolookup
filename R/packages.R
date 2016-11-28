@@ -1,3 +1,3 @@
 library("magrittr")
 requireNamespace("readr", quietly = TRUE)
-library("dplyr")
+requireNamespace("dplyr", quietly = TRUE)
